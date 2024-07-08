@@ -1,0 +1,210 @@
+
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  .card-container {
+    height: 200px;
+    width: 80% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .card-id {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-name {
+    margin-top: 0%;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Grid layout for multiple cards */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    padding: 20px;
+  }
+
+
+
+.card-media{
+  max-width: 150px;
+  height: 150px;
+}
+
+  .btn_book{
+    margin-bottom:0px;
+  }
+
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:10px; 
+  }
+
+  .upper{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .upper>h2{
+    color: blue;
+  }
+
+  .lower{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    /* gap: 10px; */
+  }
+
+  .pic{
+    width: 280px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+
+  .toggler {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggler p {
+    color: grey;
+  }
+  
+  .toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: blue;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid blue;
+    box-sizing: content-box;
+    /* padding: 3px; */
+  }
+  
+  .toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  
